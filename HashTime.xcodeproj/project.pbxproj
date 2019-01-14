@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F46261F21ECC52B00DC6631 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		0F66CA1521EB3CE700E0E625 /* HashTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashTime; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F66CA1821EB3CE700E0E625 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0F66CA1821EB3CE700E0E625 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		0F66CA0C21EB3CE700E0E625 = {
 			isa = PBXGroup;
 			children = (
+				0F46261F21ECC52B00DC6631 /* CMakeLists.txt */,
 				0F66CA1721EB3CE700E0E625 /* HashTime */,
 				0F66CA1621EB3CE700E0E625 /* Products */,
 			);
