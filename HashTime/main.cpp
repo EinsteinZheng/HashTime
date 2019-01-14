@@ -13,11 +13,20 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout<<"HashTime v0.1 Powered by Mocoder Inc."<<std::endl;
+    std::cout<<"Plain String:"<<std::endl;
     std::string plain,hash;
     std::getline(std::cin,plain);
+    std::cout<<"UserCode(48-57,97-122):"<<std::endl;
+    int userCode;
+    std::cin>>userCode;
+    hash.push_back(userCode);
     if(plain.size()%2!=0)
     {
-        plain.push_back(0xEF);
+        plain.push_back(userCode);
+    }
+    for(int i=0;i<plain.size();i+=2)
+    {
+        plain[i]=plain[i]*userCode%0xff;
     }
     for(int i=0;i<plain.size();i+=2)
     {
